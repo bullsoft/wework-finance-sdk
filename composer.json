@@ -1,0 +1,27 @@
+{
+	"name" : "bullsoft/wework-finance-sdk",
+	"description" : "WeWork Finance SDK",
+	"type" : "library",
+	"keywords" : [
+		"php",
+		"WeWork",
+		"wxwork",
+		"finance-sdk",
+        "WeWorkFinanceSdk"
+	],
+	"require" : {
+		"php" : ">=7.4"
+	},
+	"license" : "GPL-3.0",
+	"authors" : [{
+			"name" : "Weigang Gu",
+			"email" : "guweigang@bullsoft.org",
+			"role" : "Lead developer"
+		}
+	],
+	"autoload" : {
+		"classmap" : [
+            "src/"
+        ]
+	}
+}

@@ -1,0 +1,7 @@
+*.pem
+tmp
+.idea
+.vscode
+.DS_Store
+java_sdk
+test.php
