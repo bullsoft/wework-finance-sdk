@@ -47,6 +47,7 @@ class WxworkFinanceSdk
         if ($ret != 0) {
             // sdk需要主动释放
             $this->lib->DestroySdk($this->sdk);
+            $this->sdk = null;
             $msg = sprintf("init sdk err ret: %d\n", $ret);
             throw new WxworkFinanceSdkException($msg);
         }
